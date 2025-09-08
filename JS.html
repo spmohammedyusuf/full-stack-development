@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Demo</title>
+    <link rel="stylesheet" href="bs.css" />
+    <script>
+        function changepara() {
+            let paragrph = document.getElementById("paragrph");
+            paragrph.style.color ="blue";
+            paragrph.style.fontFamily = "Arial";
+            paragrph.style.fontStyle = "italic";
+            paragrph.style.borderLeft = "3px solid orange";
+            paragrph.style.borderRight = "3px solid orange";
+            paragrph.style.padding = "15px";
+            paragrph.style.textDecoration = "line-through";
+        }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-6">JS Demo</h1>
+      <p id="paragrph">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus,
+        perferendis accusantium. Ut officiis consequuntur expedita adipisci.
+        Quos eligendi accusamus natus deserunt ipsa, laudantium quod adipisci
+        quasi itaque impedit cupiditate quam!
+      </p>
+      <div class="text-center">
+        <button class="btn btn-info w-100" onclick="changepara()">
+            Click to change paragrph
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
