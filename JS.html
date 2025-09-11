@@ -8,13 +8,13 @@
     <script>
         function changepara() {
             let paragrph = document.getElementById("paragrph");
-            paragrph.style.color ="blue";
+            paragrph.style.color ="white";
             paragrph.style.fontFamily = "Arial";
             paragrph.style.fontStyle = "italic";
-            paragrph.style.borderLeft = "3px solid orange";
-            paragrph.style.borderRight = "3px solid orange";
+            paragrph.style.borderLeft = "3px solid red";
+            paragrph.style.borderRight = "3px solid red";
             paragrph.style.padding = "15px";
-            paragrph.style.textDecoration = "line-through";
+            paragrph.style.background = "blue";
         }
     </script>
   </head>
@@ -28,7 +28,7 @@
         quasi itaque impedit cupiditate quam!
       </p>
       <div class="text-center">
-        <button class="btn btn-info w-100" onclick="changepara()">
+        <button class="btn btn-danger w-100" onclick="changepara()">
             Click to change paragrph
         </button>
       </div>
